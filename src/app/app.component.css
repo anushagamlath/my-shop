@@ -1,0 +1,24 @@
+/* app.component.css */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-container {
+    margin-left: auto; /* Aligns search container to the right */
+    display: flex; /* Make the container a flex container */
+    align-items: center; /* Align items vertically */
+    width: 300px;
+  }
+  
+  .search-bar {
+    width: calc(100% - 40px); /* Adjust width of search bar */
+    padding: 8px;
+    border: 1px solid #ccc; /* Set border with gray color */
+    outline: none;
+    border-radius: 20px; /* Rounded edges for the left side */
+  }
+  
